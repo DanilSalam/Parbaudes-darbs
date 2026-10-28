@@ -1,0 +1,18 @@
+import sys
+
+if len(sys.argv) < 2:
+    print("Lietošana: python C1_uzraksti.py SERVISS")
+    sys.exit()
+
+serviss = sys.argv[1]
+rezultati = []
+
+with open("sistema.log", encoding="utf-8") as f:
+    for rinda in f:
+        if "ERROR" in rinda and serviss in rinda:
+            rezultati.append(rinda.strip())
+
+print(f"Atrastās rindas: {len(rezultati)}")
+
+for rinda in rezultati[:2]:
+    print(rinda)
