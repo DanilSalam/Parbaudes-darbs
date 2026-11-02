@@ -3,4 +3,6 @@ $apturetie = Get-Service |
     Sort-Object Name |
     Select-Object Name, Status
 
-$apturetie | Export-Csv -Path ".\apturetie.csv" -NoTypeInformation -Encoding UTF8
+$apturetie | Export-Csv -Path ".\apturetie.csv" -NoTypeInformation -Encoding UTF8 -Delimiter ";"
+
+Write-Host "Fails gatavs"
