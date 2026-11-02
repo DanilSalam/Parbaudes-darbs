@@ -1,0 +1,7 @@
+     1. Klusā kļūda 
+
+Vispirms es vēlreiz uzmanīgi izlasīšu uzdevumu, kas tur jādara un kas jāsanāca. Talāk ja skripts jāraksta pythonā vai PowerShellā, es viņu ierakstīšu un paskatos kas sanāca. Ja viss darbojas, tad skatīsu pats uz kodu un būšu mēģināt to izlabot pareizi, bet ja skripts ir nepareizs, tad skatīšu uz kļudu zem koda, kura būs uzrakstīts kadā rinda ir kļūda vai uzraksta citu kļūdu.
+
+      2. Datnes kodējums 
+
+Cēlonis ir nepareizs CSV atdalītājs. Excel neatpazīst kolonnu atdalītāju. Jāizmanto pareizais atdalītājs, piemēram semikols, lai Excel  sadalītu datus kolonnās.
